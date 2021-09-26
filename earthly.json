@@ -1,0 +1,22 @@
+{
+    "version": "0.5.23",
+    "description": "Develop and run your CI locally",
+    "homepage": "https://earthly.dev",
+    "license": "BSL",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/earthly/earthly/releases/download/v0.5.23/earthly-windows-amd64.exe",
+            "hash": "6A23001F011B7ECAE4D56583775BBE02ECAE89125440928F15ED6A179BF94190"
+        }
+    },
+    "bin": [
+        "earthly-windows-amd64.exe",
+        [
+            "earthly-windows-amd64.exe",
+            "earthly"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/earthly/earthly"
+    }
+}
